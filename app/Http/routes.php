@@ -10,9 +10,15 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Theme::set('ac-theme');
+
+Theme::set('absis-hero');
+
 
 Route::get('/','HeroController@index');
+
+Route::get('/login',function(){
+	return view('main.login');
+});
 
 /*
 |--------------------------------------------------------------------------
@@ -37,4 +43,13 @@ Route::get('/','HeroController@index');
 //     	return view('index');
 // 	});
 // });
+
+Route::group(['prefix' => 'admin', 'middleware'=>['web']], function() {
+    // ... Add your routes here 
+    // The ADMIN_THEME will be applied.
+
+    Route::get('/',function(){
+    	return "admin nih";
+    });
+});
 

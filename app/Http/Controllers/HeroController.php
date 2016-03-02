@@ -10,8 +10,6 @@ class HeroController extends Controller
     //
     public function index(){
 
-    	
-
-    	return view('index');
+    	return view('main.admin.index');
     }
 }

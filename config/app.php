@@ -213,7 +213,7 @@ return [
          * Custom facades
          */
         'Theme'     => igaster\laravelTheme\Facades\Theme::class,
-        'Asset' => Orchestra\Support\Facades\Asset::class,
+        'Asset'     => Orchestra\Support\Facades\Asset::class,
 
     ],
 

@@ -10,10 +10,9 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Theme::set('ac-theme');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','HeroController@index');
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +25,16 @@ Route::get('/', function () {
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
-    //
-});
+// Route::group(['middleware' => ['web']], function () {
+//     //
+// });
+
+// Route::group(['middleware'=>'setTheme:ab-theme'], function() {
+//     // ... Add your routes here 
+//     // The ADMIN_THEME will be applied.
+
+//     Route::get('/', function () {
+//     	return view('index');
+// 	});
+// });
+

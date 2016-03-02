@@ -156,6 +156,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Custom Service Provider
+         */
+        igaster\laravelTheme\themeServiceProvider::class,
+        Orchestra\Asset\AssetServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+
     ],
 
     /*
@@ -201,6 +208,12 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+
+        /*
+         * Custom facades
+         */
+        'Theme'     => igaster\laravelTheme\Facades\Theme::class,
+        'Asset' => Orchestra\Support\Facades\Asset::class,
 
     ],
 

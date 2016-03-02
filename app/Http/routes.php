@@ -13,7 +13,6 @@
 
 Theme::set('absis-hero');
 
-
 Route::get('/','HeroController@index');
 
 Route::get('/login',function(){
@@ -53,3 +52,38 @@ Route::group(['prefix' => 'admin', 'middleware'=>['web']], function() {
     });
 });
 
+Route::group(['prefix' => 'guru', 'middleware'=>['web']], function() {
+    // ... Add your routes here 
+    // The ADMIN_THEME will be applied.
+
+    Route::get('/',function(){
+    	return "guru nih";
+    });
+});
+
+Route::group(['prefix' => 'tu', 'middleware'=>['web']], function() {
+    // ... Add your routes here 
+    // The ADMIN_THEME will be applied.
+
+    Route::get('/',function(){
+    	return "tu nih";
+    });
+});
+
+Route::group(['prefix' => 'ortu', 'middleware'=>['web']], function() {
+    // ... Add your routes here 
+    // The ADMIN_THEME will be applied.
+
+    Route::get('/',function(){
+    	return "siswa nih";
+    });
+});
+
+Route::group(['prefix' => 'siswa', 'middleware'=>['web']], function() {
+    // ... Add your routes here 
+    // The ADMIN_THEME will be applied.
+
+    Route::get('/',function(){
+    	return "siswa nih";
+    });
+});

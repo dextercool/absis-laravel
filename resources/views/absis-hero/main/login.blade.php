@@ -1,11 +1,15 @@
+<!DOCTYPE html>
+{{-- Core System Javascript | DON'T CHANGE ANYTHING --}}
+<?php Asset::add('login', 'js/login.js'); ?>
+{{-- Theme Javascript --}}
+@js('js/jquery.min.js')
+@js('js/bootstrap.min.js')
+@js('plugins/retina/retina.min.js')
+{{-- Theme CSS --}}
 @css('css/bootstrap.min.css')
 @css('plugins/font-awesome/css/font-awesome.min.css')
 @css('css/style.css')
 @css('css/style-responsive.css')
-@js('js/jquery.min.js')
-@js('js/bootstrap.min.js')
-@js('plugins/retina/retina.min.js')
-<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta http-equiv="Cache-control" content="public">

